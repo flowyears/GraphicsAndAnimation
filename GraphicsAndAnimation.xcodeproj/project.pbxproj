@@ -15,6 +15,10 @@
 		7D7F9EF81D2F78E800F87F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7F9EF61D2F78E800F87F56 /* LaunchScreen.storyboard */; };
 		7D7F9F031D2F78E800F87F56 /* GraphicsAndAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F9F021D2F78E800F87F56 /* GraphicsAndAnimationTests.m */; };
 		7D7F9F0E1D2F78E800F87F56 /* GraphicsAndAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F9F0D1D2F78E800F87F56 /* GraphicsAndAnimationUITests.m */; };
+		7D7F9F1E1D2F83E700F87F56 /* GraphicsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F9F1D1D2F83E700F87F56 /* GraphicsVC.m */; };
+		7D7F9F211D2F848900F87F56 /* GraphicsAndAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F9F201D2F848900F87F56 /* GraphicsAndAnimationView.m */; };
+		7D7F9F251D309EF700F87F56 /* SystemFontsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F9F241D309EF700F87F56 /* SystemFontsVC.m */; };
+		7D7F9F271D30F1D400F87F56 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D7F9F261D30F1D400F87F56 /* 123.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		7D7F9F091D2F78E800F87F56 /* GraphicsAndAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphicsAndAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D7F9F0D1D2F78E800F87F56 /* GraphicsAndAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicsAndAnimationUITests.m; sourceTree = "<group>"; };
 		7D7F9F0F1D2F78E800F87F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D7F9F1B1D2F793400F87F56 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		7D7F9F1C1D2F83E700F87F56 /* GraphicsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsVC.h; sourceTree = "<group>"; };
+		7D7F9F1D1D2F83E700F87F56 /* GraphicsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsVC.m; sourceTree = "<group>"; };
+		7D7F9F1F1D2F848900F87F56 /* GraphicsAndAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsAndAnimationView.h; sourceTree = "<group>"; };
+		7D7F9F201D2F848900F87F56 /* GraphicsAndAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsAndAnimationView.m; sourceTree = "<group>"; };
+		7D7F9F231D309EF700F87F56 /* SystemFontsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemFontsVC.h; sourceTree = "<group>"; };
+		7D7F9F241D309EF700F87F56 /* SystemFontsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemFontsVC.m; sourceTree = "<group>"; };
+		7D7F9F261D30F1D400F87F56 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,13 @@
 				7D7F9EEC1D2F78E700F87F56 /* AppDelegate.m */,
 				7D7F9EEE1D2F78E700F87F56 /* ViewController.h */,
 				7D7F9EEF1D2F78E700F87F56 /* ViewController.m */,
+				7D7F9F221D309EC700F87F56 /* 字体 */,
+				7D7F9F1C1D2F83E700F87F56 /* GraphicsVC.h */,
+				7D7F9F1D1D2F83E700F87F56 /* GraphicsVC.m */,
+				7D7F9F1F1D2F848900F87F56 /* GraphicsAndAnimationView.h */,
+				7D7F9F201D2F848900F87F56 /* GraphicsAndAnimationView.m */,
+				7D7F9F1B1D2F793400F87F56 /* UtilsMacro.h */,
+				7D7F9F261D30F1D400F87F56 /* 123.png */,
 				7D7F9EF11D2F78E700F87F56 /* Main.storyboard */,
 				7D7F9EF41D2F78E700F87F56 /* Assets.xcassets */,
 				7D7F9EF61D2F78E800F87F56 /* LaunchScreen.storyboard */,
@@ -138,6 +157,15 @@
 				7D7F9F0F1D2F78E800F87F56 /* Info.plist */,
 			);
 			path = GraphicsAndAnimationUITests;
+			sourceTree = "<group>";
+		};
+		7D7F9F221D309EC700F87F56 /* 字体 */ = {
+			isa = PBXGroup;
+			children = (
+				7D7F9F231D309EF700F87F56 /* SystemFontsVC.h */,
+				7D7F9F241D309EF700F87F56 /* SystemFontsVC.m */,
+			);
+			path = "字体";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D7F9F271D30F1D400F87F56 /* 123.png in Resources */,
 				7D7F9EF81D2F78E800F87F56 /* LaunchScreen.storyboard in Resources */,
 				7D7F9EF51D2F78E700F87F56 /* Assets.xcassets in Resources */,
 				7D7F9EF31D2F78E700F87F56 /* Main.storyboard in Resources */,
@@ -271,7 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D7F9EF01D2F78E700F87F56 /* ViewController.m in Sources */,
+				7D7F9F1E1D2F83E700F87F56 /* GraphicsVC.m in Sources */,
+				7D7F9F211D2F848900F87F56 /* GraphicsAndAnimationView.m in Sources */,
 				7D7F9EED1D2F78E700F87F56 /* AppDelegate.m in Sources */,
+				7D7F9F251D309EF700F87F56 /* SystemFontsVC.m in Sources */,
 				7D7F9EEA1D2F78E700F87F56 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
