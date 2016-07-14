@@ -10,7 +10,6 @@
 #import "UtilsMacro.h"
 #import "GraphicsVC.h"
 #import "SystemFontsVC.h"
-
 static NSString *const kIdentifier = @"cellIdentifier";
 @interface ViewController ()
 <
@@ -61,6 +60,12 @@ UIToolbarDelegate
     {
         SystemFontsVC *con = [[SystemFontsVC alloc] init];
         vc = con;
+    }
+    else if (row == 13 ||
+             row == 14 ||
+             row == 15)
+    {
+       
     }
     else
     {
